@@ -1,0 +1,99 @@
+---
+title: "Species ID Guide Template"
+author: "Cole Brookson"
+date: "10/13/2021"
+output:
+    pdf_document:
+        includes:
+            in_header: file.tex
+---
+
+\newpage
+
+# *Eubalaena australis* (Southern right whale)
+
+## Description
+
+These stocky whales have extremely large heads, which can be over one-fourth of the body length. The mouthline is bowed and the rostrum is arched. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. 
+
+\newpage 
+
+## Figures
+
+```{r southern-right-whale, fig.align = 'left', out.width = "50%", out.height = "30%", fig.cap = "This is the southern right whale, figure is centered.", fig.cap.align = 'left', echo=FALSE}
+knitr::include_graphics(here::here("images", "southern-right.png"))
+```
+
+```{r southern-right-whale-skull, fig.align = 'left', out.width = "50%", out.height = "30%",fig.cap = "This is the skull of the southern right whale skull (dorsal view), figure is left-aligned.", echo=FALSE}
+knitr::include_graphics(here::here("images", "southern-right-skull.png"))
+```
+
+```{r southern-right-whale-skull-lateral, fig.align = 'left', out.width = "50%", out.height = "30%",fig.cap = "This is the skull of the southern right whale skull (lateral view), figure is left-aligned.", echo=FALSE}
+knitr::include_graphics(here::here("images", "southern-right-skull-lateral.png"))
+```
+
+\newpage 
+
+## Questions
+
+1. Very interesting and useful question 
+2. Another wildly helpful question
+3. A third, MOST fascinating question
+
+# *Balaena mysticetus* (Bowhead whale)
+
+## Description
+
+Bowhead whales are very rotund, but often have a distinct "neck" region. The head is large... Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. 
+
+\newpage 
+
+## Figures
+
+```{r bowhead-whale, fig.align = 'centered', out.width = "50%", out.height = "30%", fig.cap = "This is the bowhead whale, figure is centered.", echo=FALSE}
+knitr::include_graphics(here::here("images", "bowhead.png"))
+```
+
+```{r bowhead-whale-skull, fig.align = 'centered', out.width = "50%", out.height = "30%", fig.cap = "This is the skull of the bowhead whale skull, figure is centered.", echo=FALSE}
+knitr::include_graphics(here::here("images", "bowhead-skull.png"))
+```
+
+```{r bowhead-whale-skull-lateral, fig.align = 'centered', out.width = "50%", out.height = "30%", fig.cap = "This is the skull of the bowhead whale skull, figure is centered.", echo=FALSE}
+knitr::include_graphics(here::here("images", "bowhead-skull-lateral.png"))
+```
+
+\newpage 
+
+## Questions
+
+1. Very interesting and useful question 
+2. Another wildly helpful question
+3. A third, MOST fascinating question
+
+\newpage
+
+
+# Supplemental Information
+
+```{r, message = FALSE, echo = FALSE}
+library(tidyverse)
+library(here)
+
+whale_table = read_csv(here("./data/whale-table.csv"))
+knitr::kable(whale_table, caption = "Whale morphometrics and other infomration.")
+```
+
+## Figures
+
+```{r, echo = FALSE, fig.cap= "Whale length and whale weight compared by species", message = FALSE, out.width = "50%", out.height = "50%"}
+
+whale_data = read_csv(here("./data/whale-size-data.csv"))
+whale_plot = ggplot(data = whale_data) +
+  geom_point(aes(x = length, y = weight, fill = species), 
+             colour = "black", 
+             size = 3, 
+             shape = 21) +
+  theme_bw() +
+  labs(x = "Whale Length", y = "Whale Weight")
+whale_plot
+```
