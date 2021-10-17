@@ -1,0 +1,290 @@
+---
+title: "Species ID Guide Template, Team Chiton Queens"
+author: "Declan Taylor, Brenna Lewis, Hazel de Haas, Sammie Foley"
+date: "10/18/2021"
+output:
+  pdf_document:
+    includes:
+      in_header: file.tex
+  html_document:
+    df_print: paged
+---
+
+\newpage
+
+# *Littorina sitkana* (sitka periwinkle snail)
+
+## Description of appearance
+
+*Littorina sitkana* is a small periwinkle snail, up to 22mm long. The snail’s body (flesh) is black (**Fig. 1**). The shell colour ranges from black or grey to reddish brown (Sept, 2019). The shell can often have patterned/spiraling colour bands that are white, yellow, or orange in colour. The inside of the shell is brown to orange. The shell has a globose shape, and the first/lowest body whorl is roughly equal in height to the shell spire. Up to four whorls total (Alaska Department of Fish and Game, 2006). Shells may be smooth, or have spiraling ribs, as seen in **Fig. 2** (Sept, 2019). *Littorina scutulata*, or the checkered periwinkle, is very similar in size and shell colour. Its shell is more streamlined, the bottom whorl isn’t as thick or wide (**Supplamentary Figure 1**). *L scutulata* never has spiraling ribs, and can also be diferentiaed by the interior colour: purple, compared with *L. sitkana*'s orange-brown.
+
+## Questions
+
+1. Is the shell 1-2cm long? Ribbed? Not checkered-patterend? If yes, it is likely the sitka periwinkle. If it is smooth and checkered it is likely the Checkered periwinkle.
+
+2. Is the body shape elongated, or stout and globose? If the body is stout (with the first whirl comprising about half the shell’s length), it is likely the sitka. If it's elongated, it is likely the checkered periwinkle.
+
+3. If you are able to find larvae: are the larval snails planktonic in the pelagic zone, or are they rooted to the intertidal substratum? The sitka periwinkle is the only periwinkle with non-pelagic larvae.
+
+## Ecological description
+
+A common intertidal grazer, *L. sitkana* is found throughout the rocky intertidal from the South Bering Sea to Southern Oregon (Alaska Department of Fish and Game, 2006). It is found in the intertidal, from splash-zone (very high) to low intertidal on sheltered and slightly wave exposed areas. (Alaska Department of Fish and Game, 2006; Proudfoot & Fretwell, 2015). Splash-zone distributions (above 3.0m above lowest normal tide) generally only occur in wave-exposed sites (McCormack, 1982). The sitka periwinkle is sedentary and very desiccation prone. They generally live in tide pools and rocky crevices that stay shaded and moist, or under algae such as *Fucus distichus* (rock weed) and plants such as eel grass (Proudfoot & Fretwell, 2015; Sept, 2019). However, they are also seen on bare rock, as they risk suffocation if they stay underwater for too long (Proudfoot & Fretwell, 2015; Sept, 2019). The sitka periwinkle is a herbivore, scraping micro algae and diatoms off of rocks and macroalgae (such as *Fucus*). It also consumes intertidal lichens (Proudfoot & Fretwell, 2015). Littorina snails are important herbivore, transferring algal carbon up the food chain to their predators – several crabs, sea stars, fish, and shore birds (Proudfoot & Fretwell, 2015). 
+
+*L. sitkana* are diecious, and eggs can be found in the intertidal year round (Proudfoot & Fretwell, 2015). After sex, females deposit 50-400 fertilized eggs in a gelatinous mass in the high intertidal. Larvae feed on egg casing and emerge as mobile juveniles (Proudfoot & Fretwell, 2015). On Vancouver Island, *L. sitkana* spawn several times per year, mostly in the spring and fall (Alaska Department of Fish and Game, 2006).
+
+## Figures
+
+```{r fig.align = 'left', out.width = "50%", out.height = "25%", fig.cap = "The dark body (flesh) of the sitka periwinkle.", fig.cap.align = 'left', echo=FALSE}
+knitr::include_graphics(here::here("./images/Sitka_snail_flesh.png"))
+```
+
+```{r echo=FALSE, fig.align='left', fig.cap="The shell of the sitka periwinkle. Note the ribs which spiral the whorl. Also note how thick/stout the first whorl is.", out.height="25%", out.width="50%"}
+knitr::include_graphics(here::here("./images/Sitka_snail_ribs.png"))
+```
+
+```{r fig.align = 'left', out.width = "50%", out.height = "25%",fig.cap = "Drawing of a sitka periwinkle", echo=FALSE}
+knitr::include_graphics(here::here("./images/SitkaPeriwinkle_drawing.jpg"))
+```
+
+\newpage
+
+# *Littorina scutulata* (Checkered periwinkle)
+
+## Description of appearance
+
+*Littorina scutulata* is a small sea snail from the phylum Gastropoda. Their shell height is typically longer than their shell diameter (width) which results in a slender shell shape that is usually no taller than 1.5 cm (Harbo, 2011). The shells are a tall spire that are conical in shape, consisting of four whorls (Hohenlohe & Boulding, 2001; Valley & Hiebert, 2015). *L. scutulata* shells are typically dark-brown to black-purple, but can also be green, black, and white. The interior is nearly always purple (Harbo, 2011; Valley & Hiebert, 2015). Some individuals will be easily identifiable by a white checkering pattern, though the pattern is sometimes absent (Harbo, 2011). 
+
+Often due to their very similar size, colour variations, sculpturing, and whorl number, they can easily be mistaken as *Littorina plena* or *Littorina sitkana*. On average, *L. scutulata* is slightly larger than *L. plena* (Valley & Hiebert, 2015). The two species are most confidently determined apart by their penis and egg capsule morphology, but can also be distinguished by the size of the checkered pattern if present (Rugh, 1997). *L. scutulata* on average will present with a larger checkered pattern compared to *L. plena* (Rugh, 1997). *L. sitkana*, will typically have strong threads on its sculpture whereas *L. scutulata* will never (Kozloff, 1973; Valley & Hiebert, 2015). The shells of the *L. sitkana* are also found to be more globus compared to *L. scutulata*, created from their almost equal height to width ratio (Harbo, 2011). Lastly, *L. sitkana* are found to have an orange to brown interior as opposed to the purple interior that *L. scutulata* presents (Harbo, 2011).
+
+## Questions
+
+1. Is there a white checkered pattern present on the exterior of the shell, and if yes are they large checkers or small? If yes and large, it is likely *L. scutulata*. If yes and small, possibly *L. plena*. If no, move to Q2. 
+
+2. Does the shell have significant threads on its sculpture? If yes, *L. sitkana*. If no, move to Q3.
+
+3. Is the shell slender in shape as opposed to globose (i.e. the shell is taller than it is wide)? If yes *L. scutulata*; if no -> *L. sitkana*
+
+## Ecological description
+
+One of the five *Littorina* species that inhabit the west coast, *Littorina scutulata* has the widest range of distribution, spanning from Baja California to the Gulf of Alaska (Yamada, 1992). The checkered periwinkle can be found between the high intertidal to the supratidal zone, typically inhabiting between rocks in sheltered areas, but also can be seen in more wave-exposed areas (Harbo, 2011; Kozloff, 1997; Yamada, 1992). Due to sparse algal selection in the supratidal, these opportunistic herbivore’s diet consist of a variety of algal species such as microalgae like cyanobacteria and diatoms to macroalgal species (Steneck & Watling, 1982; Voltolina & Sacchi, 1990). This wide range in diet is made possible by the individual’s moderate radula that allows for the scraping of the alga during foraging (Voltolina & Sacchi, 1990). These primary consumers play an important role in grazing algae and therefore uptaking carbon and nitrogen to be passed further up the food chain to predators such as crabs, fish, birds, and predatory gastropods (Valley & Hiebert, 2015). *L. scutulata* undergoes sexual reproduction and are a dioecious species that perform internal fertilization (Valley & Hiebert, 2015). Copulation typically occurs during the spring and summer season which then leads to the release of their planktonic egg capsules (Hohenloe, 2002; Valley & Hiebert, 2015) The disc-shaped egg capsules then release the planktotrophic veliger larvae between the months of April to early October (Hohenloe, 2002; Valley & Hiebert, 2015).
+
+## Figures
+
+```{r fig.align = 'left', out.width = "50%", out.height = "25%", fig.cap = "Aperature view of the checkered periwinkle. ", fig.cap.align = 'left', echo=FALSE}
+knitr::include_graphics(here::here("./images/LScutulata_underside.png"))
+```
+
+```{r echo=FALSE, fig.align='left', fig.cap="The shell of a checkered periwinkle. Note the characteristic coloured checkered pattern", out.height="25%", out.width="50%"}
+knitr::include_graphics(here::here("./images/LScutulata_in_pure_beauty.png"))
+```
+
+```{r fig.align = 'left', out.width = "50%", out.height = "25%",fig.cap = "Drawing of a Checkered periwinkle", echo=FALSE}
+knitr::include_graphics(here::here("./images/CheckeredPeriwinkle_drawing.png"))
+```
+
+\newpage
+
+# *Lirabuccinum dirum* (Dire whelk or Spindle whelk)
+
+## Description
+
+Thick shell with dull bluish-grey to yellowish-brown colouring and the body of this species is white. Aperture is almost half the total height of the shell and tan in colour. The shell is quite elongated and can grow up to 5 cm. Body whorl consists of flat spiral ribs without axial ribs while the spires have strong axial ribs that are rounded and crossed by spiral ribs. Spires are often lighter in colour from wear and tear. The shell also has a well developed siphonal canal but is very short (Adams, 2005; Cowles, 2005). The dire whelk prefers wave-washed rocks on the intertidal, however they can be found on rocks within mudflats or sandflats. Its habitat ranges from the Aleutian Islands, Alaska to Monterey, California (Sept, 2019), however it is most abundant in the middle of its range, British Columbia (Lamb & Hanby, 2005). The dire whelk is a predator and scavenger. It will feed on limpets, other snails, some species of chitons and barnacles as well as scavenge on fish or crab carcasses. It feeds by extending its proboscis under or between prey shells and removing small chunks of flesh (Sept, 2019). The dire whelk undergoes sexual reproduction with internal fertilization. They produce masses of eggs and deposit them on rocky substrate. 
+
+## Questions
+
+1. Is the body of the snail white in colour?
+2. Is the shell elongated with bluish-grey to yellowish-brown colouring? 
+3. Is the siphonal canal well developed but short? 
+
+## Figures
+
+```{r fig.align = 'left', out.width = "50%", out.height = "25%", fig.cap = "Dire whelk shell. Note the rib pattern along the shell.", fig.cap.align = 'left', echo=FALSE}
+knitr::include_graphics(here::here("./images/DireWhelk_back.png"))
+```
+
+```{r echo=FALSE, fig.align='left', fig.cap="Closeup of Dire whelk shell", out.height="25%", out.width="50%"}
+knitr::include_graphics(here::here("./images/Dire_whelk.png"))
+```
+
+```{r fig.align = 'left', out.width = "50%", out.height = "25%",fig.cap = "Scientific drawing of a dire whelk", echo=FALSE}
+knitr::include_graphics(here::here("./images/DireWhelk_drawing.jpg"))
+```
+
+
+\newpage
+
+# *Katharina tunicata* (Leather chiton or Black katy chiton)
+
+## Description
+
+The thick black to brown girdle covers the majority of this species body and is very leathery in texture. Breaks in the girdle allow the 8 valves to emerge out of the dorsal side of the chiton. Valves are initially white but can turn brown, green or black with age. The mantle and foot are pinkish-red to orange-red. Leather chitons have a very visible mouth and anus (Lunsford, 2002).  The chiton can grow up to 15 cm long. The leather chiton can be found from the Aleutian Islands to Southern California. It prefers exposed environments on the rocky intertidal or it can be found in subtidal environments (Sept, 2005). It primarily feeds on red or brown algae, using its radula to scrape substrate clean of algae (Fletcher, 2002). The black oystercatcher *Haematopus bachmani* is the main predator of the leather chiton. Leather chitons are dioecious broadcast spawners, males will release their sperm into the water column which induces the females to release their eggs as well (Lunsford, 2002). 
+
+## Questions
+
+1. Is the organism mostly covered with girdle tissue?
+2. Is the girdle tissue leathery in texture and appearance? 
+3. Is the mantle and foot bright in colour and either pinkish-red or orange-red? 
+
+## Figures
+
+```{r echo=FALSE, fig.align='left', fig.cap="Dorsal view of a Leather Chiton collected at Scott's Bay.", out.height="30%", out.width="50%"}
+knitr::include_graphics(here::here("./images/LeatherChiton_back.png"))
+```
+
+```{r fig.align = 'left', out.width = "50%", out.height = "30%",fig.cap = "Ventral view of a Leather Chiton.", echo=FALSE}
+knitr::include_graphics(here::here("./images/LeatherChiton_drawing.jpg"))
+```
+
+\newpage
+
+# *Mopalia muscosa* (Mossy chiton)
+
+## Description of appearance
+
+The mossy chiton is a mollusc belonging to the class Polyplacophora meaning “bearing many plates.” It is oval-shaped and can grow to be about 3 cm (Harbo, 2011, Fretwell & Starzomski, 2013). This chiton has 8 articulating dorsal shell valves which can appear dark grey or brown in colouration and can occasionally have white lines which can be seen in our specimen This exposed portion of the plates can also be worn down and covered in algae or small invertebrates (Fretwell & Starzomski, 2013). The girdle of the chiton is diagnostic of the species - as the shell valves are embedded in a girdle that appears hairy and is relatively small compared to the leather chiton (Fretwell & Starzomski, 2013). The ventral surface of the chiton is composed of its mouth, a large foot, mantle cavities, and anus. The foot is yellow to light orange and is used for firmly attaching to substrate in the rocky intertidal (Harbo, 2011; Fretwell & Starzomski, 2013).
+
+## Questions
+
+1. Are the dorsal shell valves colourful with intricate zigzag patterns or are they relatively plain?
+2. Are the majority of the shell valves visible?
+3. Does the girdle have a hairy, mossy and/or furry appearance?
+
+## Ecological appearance
+
+The mossy chiton is found along the intertidal zone from Alaska to Isle Credos in Baja California (Fretwell & Starzomski, 2013; Harbo, 2011). Along the rocky intertidal zone, the mossy chiton prefers to inhabit tidepools, unlike the leather chiton which prefers more exposed areas (Fretwell & Starzomski, 2013; Harbo, 2011). The mossy chiton is a herbivore and feeds primarily on algae. It feeds using its radular apparatus to scrape algae from the substrate (Fretwell & Starzomski, 2013; Harbo, 2011). Mossy chitons are gonochoristic meaning they have separate sexes. The broadcast spawners and release their gametes into the water column where fertilization occurs externally. They then develop in a trochophore larva which eventually settles on the benthos (Fretwell & Starzomski, 2013; Harbo, 2011).
+
+## Figures
+
+```{r fig.align = 'left', out.width = "50%", out.height = "30%", fig.cap = "Ventral view of Mossy Chiton.", fig.cap.align = 'left', echo=FALSE}
+knitr::include_graphics(here::here("./images/MossyChiton_Underside.png"))
+```
+
+```{r echo=FALSE, fig.align='left', fig.cap="Dorsal view of Mossy Chiton.", out.height="30%", out.width="50%"}
+knitr::include_graphics(here::here("./images/MossyChiton_top.png"))
+```
+
+```{r fig.align = 'left', out.width = "50%", out.height = "30%",fig.cap = "Scientific drawing of Mossy Chiton.", echo=FALSE}
+knitr::include_graphics(here::here("./images/MossyChiton_drawing.jpg"))
+```
+
+\newpage
+
+# Supplemental Information
+
+```{r, message = FALSE, echo = FALSE}
+library(tidyverse)
+library(here)
+
+info_table = read_csv(here("./data/info-table.csv"))
+knitr::kable(info_table, caption = "Snail morphometrics and trophic infomration.")
+```
+
+## Figures
+
+```{r echo=FALSE, fig.cap="Supplementary Figure 1. Shell length and width compared between three intertidal snail species. Note the relative location of L. sitkana and L. scutulata data points.", message=FALSE, out.height="30%", out.width="50%"}
+
+SnailSize <- read_csv(here("./data/size_data.csv")) %>%
+  filter(Species == "Littorina sitkana" | 
+           Species == "Littorina scutulata" | 
+           Species == "Lirabuccinum dirum") %>%
+  mutate(Ratio = Length_mm/Width_mm)
+
+Snail_Plot <- ggplot(data = SnailSize) +
+  geom_point(aes(x = Length_mm, y = Width_mm, fill = Species), 
+             colour = "black", 
+             size = 3, 
+             shape = 21) +
+  theme_bw() +
+  labs(x = "Shell Length", y = "Shell Width")
+Snail_Plot
+```
+
+```{r echo=FALSE, fig.cap="Supplementary Figure 2. Shell proportions compared between three intertidal snails. Y-axis is the ratio of length over width. Note that only one L. dirum was collected, limiting measurement.", message=FALSE, out.height="30%", out.width="50%"}
+
+# code for the "theme_USGS_Box" function sourced from Laura DeCicco on the USGS blog: https://waterdata.usgs.gov/blog/boxplots/.
+
+theme_USGS_box <- function(base_family = "sans", ...){
+  theme_bw(base_family = base_family, ...) +
+  theme(
+    panel.grid = element_blank(),
+    plot.title = element_text(size = 8),
+    axis.ticks.length = unit(-0.05, "in"),
+    axis.text.y = element_text(margin=unit(c(0.3,0.3,0.3,0.3), "cm")),
+    axis.text.x = element_text(margin=unit(c(0.3,0.3,0.3,0.3), "cm")),
+    axis.ticks.x = element_blank(),
+    aspect.ratio = 1,
+    legend.background = element_rect(color = "black", fill = "white")
+  )
+}
+
+Snail_BoxPlot <- ggplot(data = SnailSize,
+                        aes(x = Species, y = Ratio)) +
+  geom_boxplot() +
+  xlab("Species") +
+  ylab("Length / Width") +
+  theme_USGS_box()
+Snail_BoxPlot
+```
+
+```{r echo=FALSE, fig.cap="Supplementary Figure 3. Shell length and width compared between two chiton species. Few chitons were found at Scott's Bay on collection day, limiting data points.", message=FALSE, out.height="30%", out.width="50%"}
+
+ChitonSize = read_csv(here("./data/size_data.csv")) %>%
+  filter(Species == "Katharina tunicata" | 
+           Species == "Mopalia muscosa")
+
+Chiton_Plot = ggplot(data = ChitonSize) +
+  geom_point(aes(x = Length_mm, y = Width_mm, fill = Species), 
+             colour = "black", 
+             size = 3, 
+             shape = 21) +
+  theme_bw() +
+  labs(x = "Shell Length", y = "Shell Width")
+Chiton_Plot
+```
+
+\newpage
+
+# References
+
+Adams, M. (2005). Searlesia dira (Reeve, 1846). Beach Watchers. Washington State University. Accessed 10/11/2014. 
+
+Alaska Department of Fish and Game. (2006). Sitka Periwinkle. https://www.adfg.alaska.gov/static/species/speciesinfo/_aknhp/sitka_periwinkle.pdf
+
+Behrens Yamada, S. (1992). Niche relationships in northeastern Pacific littorines. Proceedings of the Third International Symposium on Littorinid Biology, June, 281–291.
+
+Cowles, D. (2005). Searlesia Dira. Retrieved October 17, 2021, from https://inverts.wallawalla.edu/Mollusca/Gastropoda/Prosobranchia/Order_Neogastropoda/Suborder_Rachiglossa/Family_Buccinidae/Searlesia_dira.html. 
+
+Fletcher, G. (2002, March 15). Race Rocks . Race Rocks Ecological Reserve. Retrieved October 17, 2021, from https://racerocks.ca/katharina-tunicata/. 
+
+Fretwell, K., & Starzomski, B. (2013). Biodiversity of the Central Coast - Mossy chiton Mopalia muscosa. https://www.centralcoastbiodiversity.org/mossy-chiton-bull-mopalia-muscosa.html
+
+Harbo, R. (2011). Whelks to whales: Coastal marine life of the Pacific Northwest. Harbour Publishing Co. Ltd.
+
+Hohenlohe, P. A., & Boulding, E. G. (2001). A molecular assay identifies morphological characters useful for distinguishing the sibling species Littorina scutulata and L. plena. Journal of Shellfish Research, 20(1), 453–457.
+
+Hohenlohe, P. A. (2003). Distribution of sister Littorina species, I: Tenacity and the wave-exposure gradient. Veliger, 46(2), 162–168.
+
+Hohenlohea, P. A. (2002). Life history of Littorina scutulata and L. plena, sibling gastropod species with planktotrophic larvae Paul. Invertebrate Biology, 121(1), 25–37.
+
+Kozloff, E. N. (1973). SEASHORE LIFE of Puget Sound, the Strait of Georgia, and the San Juan Archipelago. University of Washington Press.
+
+Lamb, A., & Hanby, B. (2005). Marine Life of the Pacific Northwest [electronic version]. Madeira Park, BC: Harbour Publishing. 
+
+Lunsford, R. (2002). Katharina tunicata. Invertebrates of the Salish Sea. Rosario Beach Marine Laboratory. 
+
+McCormack, S. M. D. (1982). The maintenance of shore-level size gradients in an intertidal snail (Littorina sitkana). Oecolsitka 
+Periwinkle Littorina sitkana - Biodiversity of the Central Coast. (n.d.). Retrieved October 16, 2021, from https://Www.Centralcoastbiodiversity.Org/sitka-Periwinkle-Bull-Littorina-sitkana.Htmlogia, 54(2), 177–183. https://doi.org/10.1007/BF00378390
+
+Proudfoot, B., & Fretwell, K. (2015). sitka periwinkle - Littorina sitkana. Central Coast Biodiversity. https://www.centralcoastbiodiversity.org/sitka-periwinkle-bull-littorina-sitkana.html
+
+Rugh, N. S. (1997). Differences in shell morphology between the sibling species Littorina scutulata and Littorina plena (Gastropoda: Prosobranchia). Veliger, 40(4), 350–357.
+
+Sept, J. D. (2019). The New Beachcomber’s Guide to the Pacific Northwest. Harbour Publishing.
+
+Valley, J., & Hiebert, T. C. (2015). Littorina scutulata. In T. C. Hiebert, B. A. Butler, & A. L. Shanks (Eds.), Oregon Estuarine Invertebrates: Rudy’s Illustrated Guide to Common Species (3rd ed.). University of Oregon Libraries. http://www.wallawalla.edu/academics/departments/biology/rosario/inverts/Mollusca/Gastropoda/Prosobranchia/Order_Mesogastropoda/Suborder_Taenioglossa/Family_Littorinidae/Littorina_scutulata.html
+
+Voltolina, D., & Sacchi, C. F. (1990). Field observations on the feeding habits of Littorina scutulata Gould and L. sitkana 
+
+Philippi (Gastropoda, Prosobranchia) of southern Vancouver Island (British Columbia, Canada). Hydrobiologia, 193(1), 147–154. https://doi.org/10.1007/BF00028073
+
+Watling, L., & Steneck, R.. (1982). Feeding Capabilities and Limitation of Herbivorous Molluscs: A Functional Group Approach. Marine Biology, 68, 299–319.
