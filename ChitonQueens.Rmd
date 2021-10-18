@@ -185,7 +185,7 @@ knitr::kable(info_table, caption = "Snail morphometrics and trophic information"
 
 ## Figures
 
-```{r echo=FALSE, fig.cap="Supplementary Figure 1. Shell length and width compared between three intertidal snail species. Note the relative location of L. sitkana and L. scutulata data points.", message=FALSE, out.height="30%", out.width="50%"}
+```{r echo=FALSE, fig.cap="Shell length and width compared between three intertidal snail species. Note the relative location of L. sitkana and L. scutulata data points.", message=FALSE, out.height="30%", out.width="50%"}
 
 SnailSize <- read_csv(here("./data/size_data.csv")) %>%
   filter(Species == "Littorina sitkana" | 
@@ -199,7 +199,7 @@ Snail_Plot <- ggplot(data = SnailSize) +
              size = 3, 
              shape = 21) +
   theme_bw() +
-  labs(x = "Shell Length", y = "Shell Width")
+  labs(x = "Shell Length (mm)", y = "Shell Width (mm)")
 Snail_Plot
 ```
 
@@ -242,7 +242,7 @@ Chiton_Plot = ggplot(data = ChitonSize) +
              size = 3, 
              shape = 21) +
   theme_bw() +
-  labs(x = "Shell Length", y = "Shell Width")
+  labs(x = "Shell Length (mm)", y = "Shell Width (mm)")
 Chiton_Plot
 ```
 
