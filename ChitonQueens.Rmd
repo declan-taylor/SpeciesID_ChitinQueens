@@ -52,7 +52,7 @@ knitr::include_graphics(here::here("./images/SitkaPeriwinkle_drawing.jpg"))
 
 ## Description of appearance
 
-*Littorina scutulata* is a small sea snail from the phylum Gastropoda. Their shell height is typically longer than their shell diameter (width) which results in a slender shell shape that is usually no taller than 1.5 cm (Harbo, 2011). The shells are a tall spire that are conical in shape, consisting of four whorls (Hohenlohe & Boulding, 2001; Valley & Hiebert, 2015). *L. scutulata* shells are typically dark-brown to black-purple, but can also be green, black, and white. The interior is nearly always purple (Harbo, 2011; Valley & Hiebert, 2015). Some individuals will be easily identifiable by a white checkering pattern (**Fig. 5), though the pattern is sometimes absent (Harbo, 2011). 
+*Littorina scutulata* is a small sea snail from the phylum Gastropoda. Their shell height is typically longer than their shell diameter (width) which results in a slender shell shape that is usually no taller than 1.5 cm (**Supplementary Fig. 17**) (Harbo, 2011). The shells are a tall spire that are conical in shape, consisting of four whorls (Hohenlohe & Boulding, 2001; Valley & Hiebert, 2015). *L. scutulata* shells are typically dark-brown to black-purple, but can also be green, black, and white (Harbo, 2011; Valley & Hiebert, 2015). The interior can be found to nearly always have a purple color as seen in **Fig. 4** (Harbo, 2011; Valley & Hiebert, 2015). Some individuals will be easily identifiable by a white checkering pattern (**Fig. 5**), though the pattern is sometimes absent (Harbo, 2011). 
 
 Often due to their very similar size, colour variations, sculpturing, and whorl number, they can easily be mistaken as *Littorina plena* or *Littorina sitkana*. On average, *L. scutulata* is slightly larger than *L. plena* (Valley & Hiebert, 2015). The two species are most confidently determined apart by their penis and egg capsule morphology, but can also be distinguished by the size of the checkered pattern if present (Rugh, 1997). *L. scutulata* on average will present with a larger checkered pattern compared to *L. plena* (Rugh, 1997). *L. sitkana*, will typically have strong threads on its sculpture (**Fig.2**) whereas *L. scutulata* will never (**Fig. 5**) (Kozloff, 1973; Valley & Hiebert, 2015). The shells of the *L. sitkana* are also found to be more globus compared to *L. scutulata*, created from their almost equal height to width ratio (Harbo, 2011). Lastly, *L. sitkana* are found to have an orange to brown interior as opposed to the purple interior that *L. scutulata* presents (Harbo, 2011).
 
@@ -62,7 +62,7 @@ Often due to their very similar size, colour variations, sculpturing, and whorl 
 
 2. Does the shell have significant threads on its sculpture? If yes, *L. sitkana*. If no, move to Q3.
 
-3. Is the shell slender in shape as opposed to globose (i.e. the shell is taller than it is wide)? If yes *L. scutulata*; if no -> *L. sitkana*
+3. Is the shell slender in shape as opposed to globose (i.e. the shell is taller than it is wide)? If yes *L. scutulata*; if no, *L. sitkana*.
 
 ## Ecological description
 
@@ -145,7 +145,7 @@ knitr::include_graphics(here::here("./images/LeatherChiton_drawing.jpg"))
 
 ## Description of appearance
 
-The mossy chiton is a mollusc belonging to the class Polyplacophora meaning “bearing many plates.” It is oval-shaped and can grow to be about 3 cm (Harbo, 2011, Fretwell & Starzomski, 2013). This chiton has 8 articulating dorsal shell valves which can appear dark grey or brown in colouration and can occasionally have white lines which can be seen in our specimen This exposed portion of the plates can also be worn down and covered in algae or small invertebrates (Fretwell & Starzomski, 2013). The girdle of the chiton is diagnostic of the species - as the shell valves are embedded in a girdle that appears hairy and is relatively small compared to the leather chiton (Fretwell & Starzomski, 2013). The ventral surface of the chiton is composed of its mouth, a large foot, mantle cavities, and anus. The foot is yellow to light orange and is used for firmly attaching to substrate in the rocky intertidal (Harbo, 2011; Fretwell & Starzomski, 2013).
+The mossy chiton is a mollusc belonging to the class Polyplacophora meaning “bearing many plates.” It is oval-shaped and can grow to be about 3 cm (Harbo, 2011, Fretwell & Starzomski, 2013). This chiton has 8 articulating dorsal shell valves which can appear dark grey or brown in colouration and can occasionally have white lines which can be seen in our specimen. This exposed portion of the plates can also be worn down and covered in algae or small invertebrates (Fretwell & Starzomski, 2013). The girdle of the mossy chiton is diagnostic of the species. The shell valves are embedded in a girdle that appears hairy and is relatively small compared to the leather chiton (Fretwell & Starzomski, 2013). The ventral surface of the chiton is composed of its mouth, a large foot, mantle cavities, and anus. The foot is yellow to light orange and is used for firmly attaching to substrate in the rocky intertidal (Harbo, 2011; Fretwell & Starzomski, 2013).
 
 ## Questions
 
@@ -155,7 +155,7 @@ The mossy chiton is a mollusc belonging to the class Polyplacophora meaning “b
 
 ## Ecological appearance
 
-The mossy chiton is found along the intertidal zone from Alaska to Isle Credos in Baja California (Fretwell & Starzomski, 2013; Harbo, 2011). Along the rocky intertidal zone, the mossy chiton prefers to inhabit tidepools, unlike the leather chiton which prefers more exposed areas (Fretwell & Starzomski, 2013; Harbo, 2011). The mossy chiton is a herbivore and feeds primarily on algae. It feeds using its radular apparatus to scrape algae from the substrate (Fretwell & Starzomski, 2013; Harbo, 2011). Mossy chitons are gonochoristic meaning they have separate sexes. The broadcast spawners and release their gametes into the water column where fertilization occurs externally. They then develop in a trochophore larva which eventually settles on the benthos (Fretwell & Starzomski, 2013; Harbo, 2011).
+The mossy chiton is found along the intertidal zone from Alaska to Isle Credos in Baja California (Fretwell & Starzomski, 2013; Harbo, 2011). Along the rocky intertidal zone, the mossy chiton prefers to inhabit tidepools, unlike the leather chiton which prefers more exposed areas (Fretwell & Starzomski, 2013; Harbo, 2011). The mossy chiton is a herbivore and feeds primarily on algae. It feeds using its radular apparatus to scrape algae from the substrate (Fretwell & Starzomski, 2013; Harbo, 2011). Mossy chitons are gonochoristic, meaning they have separate sexes. They are broadcast spawners and release their gametes into the water column where fertilization occurs externally. They then develop in a trochophore larva which eventually settles on the benthos (Fretwell & Starzomski, 2013; Harbo, 2011).
 
 ## Figures
 
@@ -179,9 +179,13 @@ knitr::include_graphics(here::here("./images/MossyChiton_drawing.jpg"))
 library(tidyverse)
 library(here)
 
+# Please note: our table has some overlapping text. Cole and Declan tried to remedy this and were unsuccessful. Please see the figure caption for description of overlapping images.
+
 info_table = read_csv(here("./data/info-table.csv"))
-knitr::kable(info_table, caption = "Snail morphometrics and trophic information")
+knitr::kable(info_table, caption = "Morphometrics and trophic information for our snail and chiton species. Please note that Cole and Declan were unable to remedy the overlapping text issue. The column labels are as follows: Species, Avg_Length, Avg_Width, Trophic Role, Diet, Reproduction, Location. The CSV file is also in our repositories should you require more information.")
 ```
+```
+
 
 ## Figures
 
