@@ -1,6 +1,6 @@
 Species,Avg_Length,Avg_Width,Trophic Role,Diet,Reproduction,Location
-Littorina sitkana,7.233333333,6.666666667,Herbivore ,Algae,Sexual (internal fertilization),
-Littorina scutulata,7.5,4.3,Herbivore ,Algae,Sexual (internal fertilization),
-Lirabuccinum dirum,22.5,11.1,"Predator, Scavenger",Molluscs,Sexual,Exposed Intertidal
-Katharina tunicata,55.25,25.8,Herbivore,Algae,Sexual,"Exposed intertidal, subtidal"
+Littorina sitkana,7.23,6.67,Herbivore ,Algae,Sexual (internal fertilization),"Very high to low intertidal, protected areas."
+Littorina scutulata,7.5,4.3,Herbivore ,Algae,Sexual (internal fertilization),Supra- to high intertidal
+Lirabuccinum dirum,22.5,11.1,"Predator, Scavenger",Molluscs,Sexual (internal fertilization),Exposed Intertidal
+Katharina tunicata,55.25,25.8,Herbivore,Algae,"Sexual (broadcast spawn, external fertilization)","Exposed intertidal, subtidal"
 Mopalia muscosa,38.3,26.5,Herbivore,Algae,"Sexual (broadcast spawn, external fertilization)",
